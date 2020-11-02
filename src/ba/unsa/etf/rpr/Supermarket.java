@@ -17,8 +17,8 @@ public class Supermarket {
             Artikl c=market[i];
 
             if(c.getKod().equals(kod)){
-                market[i]=market[dostupno-1];
-                dostupno= dostupno - 1;
+                market[i] = market[dostupno-1];
+                dostupno = dostupno - 1;
                 return c;
             }
         }

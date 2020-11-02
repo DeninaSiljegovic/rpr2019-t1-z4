@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class KorpaTest {
     private Supermarket supermarket;
 
+    /*Bitno je ovo uradit kako bi znali da je sve prije nego st se test pokrene*/
     @BeforeEach
     void initializeSupermarket(){
         supermarket = new Supermarket();
